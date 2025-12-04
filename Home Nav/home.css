@@ -1,0 +1,35 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    justify-items: center;
+}
+
+header h1{
+    color: red;
+}
+
+.heading{
+    justify-items: center;
+}
+
+.navbar{
+    justify-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    border: 5px solid skyblue;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.nav{
+    justify-items: center;
+    border: 5px solid skyblue;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.nav .box{
+    margin-bottom: 10px;
+}
