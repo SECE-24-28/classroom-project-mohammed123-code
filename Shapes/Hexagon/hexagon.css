@@ -1,0 +1,21 @@
+.hexagon{
+    width: 150px;
+    height: 150px;
+    background: teal;
+    border-radius: 10px;
+    transition: all 1s ease-in-out; 
+}
+
+.hexagon:hover {
+    width: 150px;
+    height: 150px;
+    background: blue;
+    clip-path: polygon(
+        25% 0%, 
+        75% 0%, 
+        100% 50%, 
+        75% 100%, 
+        25% 100%, 
+        0% 50%
+    );
+}
