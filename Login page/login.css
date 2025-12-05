@@ -1,0 +1,57 @@
+.login{
+    margin-top: 50px;
+    border: 2px solid rgb(164, 153, 153);
+    border-radius: 25px;
+    width: 400px;
+    padding: 30px;
+}
+
+.forgetandreset{
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+body{
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('background.jpg');
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.up{
+    opacity: 0.5;
+    border-radius: 35px;
+    padding: 10px;
+    width: 220px;
+}
+.signin{
+    background-color: navy;
+    color: white;
+    border-radius: 35px;
+    padding: 10px;
+    width: 230px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.gm{
+    padding: 10px;
+    border-radius: 25px;
+    width: 110px;
+    opacity: 0.8;
+    
+}
+.loginhead{
+    margin-bottom: 50px;
+}
+
+img{
+    height: 10px;
+    padding-right: 5px;
+}
