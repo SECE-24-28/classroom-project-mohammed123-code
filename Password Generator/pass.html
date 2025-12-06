@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pass.css">
+</head>
+<body>
+        <div class="container">
+            <h1>Password Generator</h1>
+            <br>
+            <br>
+            <form>
+                Password Length:
+                <span id="rangevalue">12</span>
+                <input type="range" min="4" max="32" value="12">
+            </form>
+            <br>
+
+
+            <div class="options">
+                <input type="checkbox" id="uppercase" checked>Lowercase<br>
+                <input type="checkbox" id="lowercase" checked>Uppercase<br>
+                <input type="checkbox" id="numbers" checked>Number<br>
+                <input type="checkbox" id="symbols" >Symbols<br>
+            </div>
+            <br>
+            <!-- Box where password is Shown -->
+            <div class="buttons">
+                <input type="text" id="password" readonly><br><br>
+                <button id="generate">Generate Password</button><br><br>
+                <button id="copy">Copy Password</button><br><br>
+            </div>
+                
+        </div>
+    <script src="pass.js"></script>
+</body>
+</html>
